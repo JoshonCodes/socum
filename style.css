@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #FDB824;
+    display: flex;
+    position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
+
+.first{
+  width: 80%;
+  margin: 20px 0 20px 20px;
+  background-image: url('img/office.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  font-size: 10px;
+  font-family: Arial,  sans-serif;
+  margin-bottom: 20px;
+  color: yellow;
+  padding: 30px;
+}
+
+
+.first div{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 30px;
+  font-size: 25px;
+}
+
+
+.wrapper{
+  margin-top: 800px;
+  margin-left: 25px;
+  color: #000;
+  background: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: all ease-in-out .3s;
+}
+
+.wrapper:hover{
+  background: lightgrey;
+}
+
+.second{
+  background-color: #fff;
+  margin: 20px 20px 20px 0;
+}
+
+.third{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+form{
+  width: 200px;
+  padding: 20px;
+}
+input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  padding: 15px 10px;
+}
+form button{
+  margin-top: 20px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 8px;
+  font-size: 12px;
+  transition: all ease-in-out .3s;
+}
+.content{
+  background: yellow;
+}
+.content:hover{
+  background: lightgrey;
+}
+
+.container{
+  background: grey;
+}
+.container:hover{
+  background: lightgrey;
+}
